@@ -5,7 +5,7 @@ import { DocumentBuilder, SwaggerModule } from '@nestjs/swagger';
 
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
-  const port = process.env.PORT
+  const port = 3000
 
   const config = new DocumentBuilder()
     .setTitle('Metrics API')
@@ -31,7 +31,7 @@ async function bootstrap() {
   app.enableCors();
 
   //app.use(logger);
-  await app.listen(port, '0.0.0.0');
+  await app.listen(port);
   console.log(`[METRICS] Server running on port ${port}`);
 }
 bootstrap();
