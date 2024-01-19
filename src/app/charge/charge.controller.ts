@@ -1,7 +1,7 @@
 import { Body, Controller, Get, HttpStatus, ParseFilePipeBuilder, Post, UploadedFile, UseInterceptors } from '@nestjs/common';
 import { ChargeService } from './charge.service';
 import { ApiConsumes, ApiOperation, ApiResponse, ApiTags } from '@nestjs/swagger';
-import { MetricsDTO, MetricsParamsDTO } from './dto/charge.dto';
+import { MetricsDTO } from './dto/charge.dto';
 import { FileInterceptor } from '@nestjs/platform-express';
 
 @Controller('api/charge')

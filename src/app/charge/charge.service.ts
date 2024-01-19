@@ -1,7 +1,6 @@
 import { Injectable } from '@nestjs/common';
-import { MetricsDTO, MetricsParamsDTO } from './dto/charge.dto';
+import { MetricsDTO } from './dto/charge.dto';
 import * as XLSX from 'xlsx';
-import * as fs from 'fs'
 
 @Injectable()
 export class ChargeService {
