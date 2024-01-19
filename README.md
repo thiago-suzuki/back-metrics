@@ -17,10 +17,9 @@ $ npm install
 
 ## Rodar o Backend
 ```bash
-$ npm run start
-```
-
-## Rodar o Backend em Modo Watch
-```bash
 $ npm run dev
 ```
+
+## Links of Deploy
+- Hello World: https://easy-tux-foal.cyclic.app
+- Swagger: https://easy-tux-foal.cyclic.app/doc
